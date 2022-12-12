@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints the lowercase alphabet in reverse.
+ * main - Entry point.
  *
  * Return: 0.
  */
@@ -12,5 +12,6 @@ int main(void)
 		putchar(letter);
 
 	putchar('\n');
+
 	return (0);
 }
